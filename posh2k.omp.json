@@ -68,8 +68,8 @@
           "style": "diamond",
           "foreground": "#d6deeb",
           "background": "#234d70",
-          "leading_diamond": "\ue0b2",
-          "trailing_diamond": "\ue0b4",
+          "leading_diamond": "<transparent,#234d70>\ue0b0</>",
+          "trailing_diamond": "\ue0b0",
           "template": "\uf64f {{ .CurrentDate | date .Format }}",
           "properties": {
             "time_format": "Mon, 15:04 PM"
@@ -378,13 +378,12 @@
           "foreground": "#ffffff",
           "background": "#fe562e",
           "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,#fe562e>\ue0b2</>",
           "template": "\ue755 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} "
         },
         {
           "type": "battery",
-          "style": "powerline",
-          "powerline_symbol": "\uE0B0",
+          "style": "diamond",
+          "leading_diamond": "\ue0b2",
           "foreground": "#193549",
           "background": "#ffeb3b",
           "background_templates": [
@@ -416,9 +415,7 @@
           "type": "exit",
           "style": "diamond",
           "foreground": "#22da6e",
-          "foreground_templates": [
-            "{{ if gt .Code 0 }}#ef5350{{ end }}"
-          ],
+          "foreground_templates": ["{{ if gt .Code 0 }}#ef5350{{ end }}"],
           "template": "\uf135 \ue0b0",
           "properties": {
             "always_enabled": true
