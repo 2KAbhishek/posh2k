@@ -72,7 +72,7 @@
           "trailing_diamond": "\ue0b0",
           "template": "\uf64f {{ .CurrentDate | date .Format }}",
           "properties": {
-            "time_format": "Mon, 15:04 PM"
+            "time_format": "Mon, 03:04 PM"
           }
         },
         {
