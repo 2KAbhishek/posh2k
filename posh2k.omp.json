@@ -414,9 +414,12 @@
         {
           "type": "exit",
           "style": "diamond",
-          "foreground": "#22da6e",
-          "foreground_templates": ["{{ if gt .Code 0 }}#ef5350{{ end }}"],
-          "template": "\uf135 \ue0b0",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b0",
+          "background": "#22da6e",
+          "foreground": "#000",
+          "foreground_templates": ["{{ if gt .Code 0 }}#ff0000{{ end }}"],
+          "template": "\uf135 \uf054",
           "properties": {
             "always_enabled": true
           }
