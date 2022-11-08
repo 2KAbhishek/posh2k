@@ -110,27 +110,6 @@
           "template": "\uf489  {{ .Name }} "
         },
         {
-          "type": "spotify",
-          "style": "diamond",
-          "foreground": "#000",
-          "background": "#1DB954",
-          "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,#1DB954>\ue0b2</>",
-          "template": " {{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} ~ {{ .Track }}{{ end }} ",
-          "properties": {
-            "playing_icon": "\uf1bc "
-          }
-        },
-        {
-          "type": "sysinfo",
-          "style": "diamond",
-          "foreground": "#ffffff",
-          "background": "#8f43f3",
-          "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,#8f43f3>\ue0b2</>",
-          "template": "\uf85a {{ round .PhysicalPercentUsed .Precision }}% "
-        },
-        {
           "type": "angular",
           "style": "diamond",
           "foreground": "#ce092f",
@@ -385,6 +364,27 @@
           "background": "#fe562e",
           "leading_diamond": "\ue0b2",
           "template": "\ue755 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} "
+        },
+        {
+          "type": "spotify",
+          "style": "diamond",
+          "foreground": "#000",
+          "background": "#1DB954",
+          "leading_diamond": "\ue0b2",
+          "trailing_diamond": "<transparent,#1DB954>\ue0b2</>",
+          "template": " {{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} ~ {{ .Track }}{{ end }} ",
+          "properties": {
+            "playing_icon": "\uf1bc "
+          }
+        },
+        {
+          "type": "sysinfo",
+          "style": "diamond",
+          "foreground": "#000",
+          "background": "#ffbf28",
+          "leading_diamond": "\ue0b2",
+          "trailing_diamond": "<transparent,#ffbf28>\ue0b2</>",
+          "template": "\uf2db {{ round .PhysicalPercentUsed .Precision }}% "
         },
         {
           "type": "battery",
