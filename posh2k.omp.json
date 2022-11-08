@@ -394,14 +394,14 @@
           "background": "#ffeb3b",
           "background_templates": [
             "{{if eq \"Charging\" .State.String}}#40c4ff{{end}}",
-            "{{if eq \"Discharging\" .State.String}}#ee032d{{end}}",
-            "{{if eq \"Full\" .State.String}}#40c4ff{{end}}"
+            "{{if eq \"Discharging\" .State.String}}#fb2457{{end}}",
+            "{{if eq \"Full\" .State.String}}#20ffa4{{end}}"
           ],
           "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}\uF295 ",
           "properties": {
-            "discharging_icon": "\uE231 ",
-            "charging_icon": "\uE234 ",
-            "charged_icon": "\uE22F "
+            "discharging_icon": "\uf57d ",
+            "charging_icon": "\uf583 ",
+            "charged_icon": "\uf578 "
           }
         }
       ],
