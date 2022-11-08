@@ -72,13 +72,13 @@
         {
           "type": "time",
           "style": "diamond",
-          "foreground": "#d6deeb",
-          "background": "#234d70",
-          "leading_diamond": "<transparent,#234d70>\ue0b0</>",
+          "foreground": "#000",
+          "background": "#26c6ee",
+          "leading_diamond": "<transparent,#26c6ee>\ue0b0</>",
           "trailing_diamond": "\ue0b0",
           "template": "\uf64f {{ .CurrentDate | date .Format }}",
           "properties": {
-            "time_format": "Mon, 03:04 PM"
+            "time_format": "Mon, 03:04 PM "
           }
         },
         {
