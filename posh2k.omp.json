@@ -101,18 +101,6 @@
       "alignment": "right",
       "segments": [
         {
-          "type": "spotify",
-          "style": "diamond",
-          "foreground": "#000",
-          "background": "#1DB954",
-          "leading_diamond": "\ue0b6",
-          "trailing_diamond": "\ue0b0",
-          "template": " {{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} ~ {{ .Track }}{{ end }} ",
-          "properties": {
-            "playing_icon": "\uf1bc "
-          }
-        },
-        {
           "type": "shell",
           "style": "diamond",
           "foreground": "#000",
@@ -120,6 +108,18 @@
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "<transparent,#d6deeb>\ue0b2</>",
           "template": "\uf489  {{ .Name }} "
+        },
+        {
+          "type": "spotify",
+          "style": "diamond",
+          "foreground": "#000",
+          "background": "#1DB954",
+          "leading_diamond": "\ue0b2",
+          "trailing_diamond": "<transparent,#1DB954>\ue0b2</>",
+          "template": " {{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} ~ {{ .Track }}{{ end }} ",
+          "properties": {
+            "playing_icon": "\uf1bc "
+          }
         },
         {
           "type": "sysinfo",
