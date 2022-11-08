@@ -107,7 +107,16 @@
           "background": "#d6deeb",
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "<transparent,#d6deeb>\ue0b2</>",
-          "template": "\uf489  {{ .Name }} "
+          "properties": {
+            "mapped_shell_names": {
+              "pwsh": "\uebc7 pwsh",
+              "fish": "\uf739 fish",
+              "bash": "\uebca bash",
+              "zsh": "\ue778 zsh",
+              "cmd": "\ue629 cmd"
+            }
+          },
+          "template": "{{ .Name }}"
         },
         {
           "type": "angular",
