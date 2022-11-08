@@ -85,13 +85,13 @@
           "type": "executiontime",
           "style": "diamond",
           "foreground": "#000",
-          "background": "#575656",
-          "leading_diamond": "<transparent,#575656>\ue0b0</>",
+          "background": "#f4356f",
+          "leading_diamond": "<transparent,#f4356f>\ue0b0</>",
           "trailing_diamond": "\ue0b4",
-          "template": " {{ .FormattedMs }}",
+          "template": "\uf253 {{ .FormattedMs }}",
           "properties": {
             "style": "roundrock",
-            "threshold": 500
+            "threshold": 10
           }
         }
       ]
