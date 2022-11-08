@@ -11,7 +11,7 @@
         {
           "type": "os",
           "style": "diamond",
-          "foreground": "#011627",
+          "foreground": "#000",
           "background": "#21c7a8",
           "leading_diamond": "\u256d\u2500\ue0b6",
           "trailing_diamond": "\ue0b0",
@@ -78,7 +78,7 @@
         {
           "type": "executiontime",
           "style": "diamond",
-          "foreground": "#d6deeb",
+          "foreground": "#000",
           "background": "#575656",
           "leading_diamond": "<transparent,#575656>\ue0b0</>",
           "trailing_diamond": "\ue0b4",
@@ -97,7 +97,7 @@
         {
           "type": "spotify",
           "style": "diamond",
-          "foreground": "#011627",
+          "foreground": "#000",
           "background": "#1DB954",
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "\ue0b0",
@@ -109,7 +109,7 @@
         {
           "type": "shell",
           "style": "diamond",
-          "foreground": "#011627",
+          "foreground": "#000",
           "background": "#d6deeb",
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "<transparent,#d6deeb>\ue0b2</>",
@@ -416,7 +416,7 @@
           "style": "diamond",
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "\ue0b0",
-          "background": "#22da6e",
+          "background": "#21c7a8",
           "foreground": "#000",
           "foreground_templates": ["{{ if gt .Code 0 }}#ff0000{{ end }}"],
           "template": "\uf135 \uf054",
