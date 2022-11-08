@@ -30,15 +30,17 @@
         },
         {
           "type": "path",
-          "style": "powerline",
+          "style": "diamond",
           "powerline_symbol": "\ue0b0",
-          "foreground": "#011627",
+          "leading_diamond": "<transparent,#1688f0>\ue0b0</>",
+          "trailing_diamond": "<#1688f0,transparent>\ue0b0</>",
+          "foreground": "#000",
           "background": "#1688f0",
           "template": "{{ path .Path .Location }}",
           "properties": {
             "folder_icon": "\uf07c ",
-            "folder_separator_icon": "<#011627>\ue0b1</> ",
-            "home_icon": " \uf7db ",
+            "folder_separator_icon": "/",
+            "home_icon": "\uf7db ~",
             "style": "unique"
           }
         },
