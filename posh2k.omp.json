@@ -400,7 +400,7 @@
           "type": "battery",
           "style": "diamond",
           "leading_diamond": "\ue0b2",
-          "foreground": "#193549",
+          "foreground": "#000",
           "background": "#ffeb3b",
           "background_templates": [
             "{{if eq \"Charging\" .State.String}}#40c4ff{{end}}",
