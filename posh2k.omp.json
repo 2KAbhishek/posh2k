@@ -435,7 +435,7 @@
     }
   ],
   "transient_prompt": {
-    "foreground": "#d6deeb",
+    "foreground": "#1688f0",
     "background": "transparent",
     "template": "\ue285 "
   }
