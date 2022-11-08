@@ -24,9 +24,9 @@
           "type": "root",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "foreground": "#ffeb95",
-          "background": "#ef5350",
-          "template": " \uf292 "
+          "foreground": "#000",
+          "background": "#ef53d0",
+          "template": "\uf292 "
         },
         {
           "type": "path",
