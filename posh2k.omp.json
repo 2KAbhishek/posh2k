@@ -394,8 +394,8 @@
           "background": "#ffeb3b",
           "background_templates": [
             "{{if eq \"Charging\" .State.String}}#40c4ff{{end}}",
-            "{{if eq \"Discharging\" .State.String}}#ff5722{{end}}",
-            "{{if eq \"Full\" .State.String}}#4caf50{{end}}"
+            "{{if eq \"Discharging\" .State.String}}#ee032d{{end}}",
+            "{{if eq \"Full\" .State.String}}#40c4ff{{end}}"
           ],
           "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}\uF295 ",
           "properties": {
@@ -424,8 +424,8 @@
           "trailing_diamond": "\ue0b0",
           "background": "#21c7a8",
           "foreground": "#000",
-          "foreground_templates": ["{{ if gt .Code 0 }}#ff0000{{ end }}"],
-          "template": "\uf135 \uf054",
+          "foreground_templates": ["{{ if gt .Code 0 }}#ba1745{{ end }}"],
+          "template": "{{ if gt .Code 0 }}\ue36e \uf00d[{{ .Code }}]{{ else }}\uf135 \uf054{{ end }}",
           "properties": {
             "always_enabled": true
           }
