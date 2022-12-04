@@ -20,7 +20,7 @@
 <a href="https://github.com/2KAbhishek/Posh2K/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/Posh2K?style=flat&color=e06c75&label="> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
+<h3>Universal prompt for Power users 💪🌈</h3>
 
 <figure>
   <img src= "images/screenshot.png" alt="Posh2K Demo">
@@ -32,17 +32,17 @@
 
 ## What is this
 
-Posh2K is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+Posh2K is a prompt for oh-my-posh, it works on all shells, has multiple segments with aesthetically pleasing colors.
 
 ## Inspiration
 
-Posh2K was inspired by `<reason/idea>`.
+Needed a prompt that can work across shells and has support for different languages.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of [oh-my-posh](https://ohmyposh.dev/docs/installation/linux)
 
 ## Getting Posh2K
 
@@ -51,51 +51,31 @@ To get Posh2K, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/Posh2K
 cd Posh2K
-<install_command>
+
+# for Powershell, add this to $Profile
+oh-my-posh init pwsh --config ~/PATH_TO_DIR/Posh2K/pos2k.json | Invoke-Expression
+
+# for Zsh, add this to ~/.zshrc
+eval "$(oh-my-posh init zsh --config ~/PATH_TO_DIR/Posh2K/pos2k.json)"
+
+# for Bash, add this to ~/.bashrc
+eval "$(oh-my-posh init bash --config ~/PATH_TO_DIR/Posh2K/pos2k.json)"
+
+# for Fish, add this to ~/config/fish/config.fish
+oh-my-posh init fish --config ~/PATH_TO_DIR/Posh2K/pos2k.json | source
+
+# for nu shell, run
+oh-my-posh init nu --config ~/PATH_TO_DIR/Posh2K/pos2k.json
+source ~/oh-my-posh.nu
+
+# for cmd, install Clink, then add this
+load(io.popen('oh-my-posh init cmd --config ~/PATH_TO_DIR/Posh2K/pos2k.json'):read("*a"))()
+
 ```
-
-## Using Posh2K
-
-```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
-```
-
-## How it was built
-
-Posh2K was built using `<tech/library>`
 
 ## Challenges faced
 
-While building Posh2K the main challenges were `<issue/difficulty>`
-
-## What I learned
-
-While building Posh2K I `<learned/accomplished>` about `<learning/accomplishment>`
-
-## What's next
-
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+Going through the docs and understanding different segments.
 
 Hit the ⭐ button if you found this useful.
 
