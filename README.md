@@ -32,11 +32,13 @@
 
 ## What is this
 
-Posh2K is a prompt for oh-my-posh, it works on all shells, has multiple segments with aesthetically pleasing colors.
+Posh2K is a prompt for [oh-my-posh](https://ohmyposh.dev/), it works on all shells, has multiple segments with aesthetically pleasing colors.
 
 ## Inspiration
 
-Needed a prompt that can work across shells and has support for different languages.
+Most of my workflow is based on the command line, recently I had to use a Windows system for some work and was really displeased by the CLI experience.
+
+So, I needed a prompt that can work across shells and has support for different segments and Posh2K was born.
 
 ## Prerequisites
 
@@ -50,7 +52,6 @@ To get Posh2K, follow these steps:
 
 ```bash
 git clone https://github.com/2kabhishek/Posh2K
-cd Posh2K
 
 # for Powershell, add this to $Profile
 oh-my-posh init pwsh --config ~/PATH_TO_DIR/Posh2K/pos2k.json | Invoke-Expression
