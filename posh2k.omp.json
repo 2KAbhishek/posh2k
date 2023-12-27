@@ -15,10 +15,7 @@
           "background": "#21c7a8",
           "leading_diamond": "\u256d\u2500\ue0b6",
           "trailing_diamond": "\ue0b0",
-          "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}  ",
-          "properties": {
-            "windows": "\uf871"
-          }
+          "template": " {{ if .WSL }}WSL @ {{ end }}{{.Icon}}  "
         },
         {
           "type": "root",
@@ -38,9 +35,9 @@
           "background": "#1688f0",
           "template": "{{ path .Path .Location }}",
           "properties": {
-            "folder_icon": "\uf07c ",
+            "folder_icon": "\uf07b ",
             "folder_separator_icon": "/",
-            "home_icon": "\uf7db ~",
+            "home_icon": "\uf015 ~",
             "style": "unique"
           }
         },
@@ -76,7 +73,7 @@
           "background": "#26c6ee",
           "leading_diamond": "<transparent,#26c6ee>\ue0b0</>",
           "trailing_diamond": "\ue0b0",
-          "template": "\uf64f {{ .CurrentDate | date .Format }}",
+          "template": "\uf017 {{ .CurrentDate | date .Format }}",
           "properties": {
             "time_format": "Mon, 03:04 PM "
           }
@@ -407,11 +404,11 @@
             "{{if eq \"Discharging\" .State.String}}#fb2457{{end}}",
             "{{if eq \"Full\" .State.String}}#20ffa4{{end}}"
           ],
-          "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}\uF295 ",
+          "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}% ",
           "properties": {
-            "discharging_icon": "\uf57d ",
-            "charging_icon": "\uf583 ",
-            "charged_icon": "\uf578 "
+            "discharging_icon": "\udb80\udc80 ",
+            "charging_icon": "\udb80\udc84 ",
+            "charged_icon": "\udb85\udfe2 "
           }
         }
       ],
