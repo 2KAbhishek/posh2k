@@ -54,24 +54,23 @@ To get posh2k, follow these steps:
 git clone https://github.com/2kabhishek/posh2k
 
 # for Powershell, add this to $Profile
-oh-my-posh init pwsh --config ~/PATH_TO_DIR/posh2k/posh2k.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config ~/PATH_TO_DIR/posh2k/posh2k.toml | Invoke-Expression
 
 # for Zsh, add this to ~/.zshrc
-eval "$(oh-my-posh init zsh --config ~/PATH_TO_DIR/posh2k/posh2k.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/PATH_TO_DIR/posh2k/posh2k.toml)"
 
 # for Bash, add this to ~/.bashrc
-eval "$(oh-my-posh init bash --config ~/PATH_TO_DIR/posh2k/posh2k.omp.json)"
+eval "$(oh-my-posh init bash --config ~/PATH_TO_DIR/posh2k/posh2k.toml)"
 
 # for Fish, add this to ~/config/fish/config.fish
-oh-my-posh init fish --config ~/PATH_TO_DIR/posh2k/posh2k.omp.json | source
+oh-my-posh init fish --config ~/PATH_TO_DIR/posh2k/posh2k.toml | source
 
 # for nu shell, run
-oh-my-posh init nu --config ~/PATH_TO_DIR/posh2k/posh2k.omp.json
+oh-my-posh init nu --config ~/PATH_TO_DIR/posh2k/posh2k.toml
 source ~/oh-my-posh.nu
 
 # for cmd, install Clink, then add this
-load(io.popen('oh-my-posh init cmd --config ~/PATH_TO_DIR/posh2k/posh2k.omp.json'):read("*a"))()
-
+load(io.popen('oh-my-posh init cmd --config ~/PATH_TO_DIR/posh2k/posh2k.toml'):read("*a"))()
 ```
 
 ## Challenges faced
