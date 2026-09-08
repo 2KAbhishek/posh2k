@@ -27,7 +27,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '24h'
 
   [[blocks.segments]]
     template = ' '
@@ -38,7 +38,7 @@ final_space = true
     style = 'powerline'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '24h'
 
   [[blocks.segments]]
     leading_diamond = '<transparent,#1688f0></>'
@@ -120,7 +120,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '24h'
 
       [blocks.segments.options.mapped_shell_names]
         bash = ' bash'
@@ -139,7 +139,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -151,7 +151,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -163,7 +163,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -175,7 +175,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -187,7 +187,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -199,7 +199,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -211,7 +211,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -223,7 +223,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -235,7 +235,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -247,7 +247,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -259,7 +259,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -271,7 +271,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -283,7 +283,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -295,7 +295,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -307,7 +307,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -319,7 +319,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -331,7 +331,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -343,7 +343,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -355,7 +355,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -367,7 +367,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
       fetch_package_manager = true
       npm_icon = '<#cc3a3a></> '
       yarn_icon = '<#348cba></> '
@@ -382,7 +382,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -394,7 +394,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -406,7 +406,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -418,7 +418,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -430,7 +430,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -442,7 +442,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -453,7 +453,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -465,7 +465,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '1h'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -477,7 +477,7 @@ final_space = true
     style = 'diamond'
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '10s'
 
   [[blocks.segments]]
     leading_diamond = ''
@@ -489,7 +489,7 @@ final_space = true
     background_templates = ['{{if eq "Charging" .State.String}}#40c4ff{{end}}', '{{if eq "Discharging" .State.String}}#fb2457{{end}}', '{{if eq "Full" .State.String}}#20ffa4{{end}}']
 
     [blocks.segments.options]
-      cache_duration = 'none'
+      cache_duration = '30s'
       charged_icon = '󱟢 '
       charging_icon = '󰂄 '
       discharging_icon = '󰂀 '
