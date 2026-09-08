@@ -1,6 +1,7 @@
 console_title_template = '{{ .Folder }}'
 version = 3
 final_space = true
+streaming = 25
 
 [transient_prompt]
   template = ' '
